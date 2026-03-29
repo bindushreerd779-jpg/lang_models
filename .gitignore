@@ -1,5 +1,12 @@
+# Ignore large model files
 *.pt
 *.bin
+*.pte
+
+# Ignore training checkpoints
 checkpoint*/
+
+# Ignore env
 et_env/
 __pycache__/
+*.pyc
